@@ -1,47 +1,50 @@
-# RANDOM PASSWORD GENERATOR USING PYTHON
+Human Scientific Calculator
 
-### 1. Introduction
+This is a simple scientific calculator made using Python. The main idea of this project is to make calculations easy by allowing the user to type expressions in a way that feels natural.
 
-The Random Password Generator is a Python project that creates strong and random passwords. It allows users to choose the password length and select lowercase letters, uppercase letters, numbers, and special characters.
+Features
 
-### 2. Objective
+- Basic calculations like addition, subtraction, multiplication and division
+- Power using "^"
+- Square root using "√"
+- Trigonometric functions: "sin", "cos", and "tan"
+- Logarithm using "log"
+- Natural logarithm using "ln"
+- Value of π using "pi"
+- Value of e using "e"
+- "Ans" to use the previous answer
+- Degree and radian modes
+- Simple terminal-based interface
 
-The main objective is to generate secure passwords easily and reduce the use of weak or predictable passwords.
+How to Run
 
-### 3. Technologies Used
+1. Make sure Python is installed on your computer.
+2. Save the program as "calculator.py".
+3. Open the terminal in the folder where the file is saved.
+4. Run:
 
-* **Language:** Python
-* **Modules:** `secrets`, `string`, `math`
-* **File:** `passwords.txt`
+python calculator.py
 
-### 4. Working
+Some Examples
 
-The program first asks the user for the password length and character types. It generates at least one character from each selected category and fills the remaining positions randomly. The characters are then shuffled to create the final password.
+> 5+10
+= 15
 
-The program also calculates an approximate entropy value and classifies the password as **Weak, Medium, Strong, or Very Strong**.
+> 2^3
+= 8
 
-### 5. Main Features
+> sqrt(25)
+= 5
 
-* Custom password length (4–128 characters)
-* Lowercase and uppercase letters
-* Numbers and special characters
-* Multiple password generation
-* Password strength checking
-* Save passwords to a text file
-* Input validation
+> sin(30)
+= 0.5
 
-### 6. Advantages
+You can type "deg" for degree mode and "rad" for radian mode.
 
-The project is simple, fast, easy to use, and does not require external libraries. It uses Python's `secrets` module, which is suitable for generating security-related random values.
+To close the calculator, simply type:
 
-### 7. Limitations
+q
 
-The program uses a command-line interface and saves passwords as plain text when the user chooses the save option. The strength calculation is only an approximate estimate.
+About the Project
 
-### 8. Future Scope
-
-A graphical interface, clipboard copy option, better password analysis, and secure password-manager integration can be added in the future.
-
-### 9. Conclusion
-
-This project demonstrates how Python can be used to create a practical password-generation tool. It helped in understanding functions, loops, conditional statements, input validation, file handling, random generation, and basic password-strength calculation.
+I made this project to understand how Python can be used to create a small calculator that accepts user input. It also helped me learn about functions, loops, conditions, the "math" module and handling errors in Python.
